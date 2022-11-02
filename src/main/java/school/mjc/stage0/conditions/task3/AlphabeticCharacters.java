@@ -5,7 +5,7 @@ public class AlphabeticCharacters {
         if (character == 'a'|| character == 'e' ||
                 character == 'i' || character == 'u'|| character == 'o') {
             System.out.println("Vowel");
-        } else if (!(character >= 'a' && character <= 'z' && character >= 'A' && character <= 'Z')) {
+        } else if (character != 'a' && character != 'z' && character != 'A' && character != 'Z') {
             System.out.println("wrong alphabet!");
 
         }
